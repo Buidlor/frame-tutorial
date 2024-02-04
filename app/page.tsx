@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Twin cats</h1>
+      <h1>Twin cats story</h1>
     </>
   );
 }
