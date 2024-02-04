@@ -10,7 +10,7 @@ const frameMetadata = getFrameMetadata({
   image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmQMLkjV47tnpHFyHpMQwbi3F9oDwRg7deMXbNS9QeU6xb/0.jpg`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
-
+//update metadata
 export const metadata: Metadata = {
   title: "Cosmic Cowboys",
   description: "A frame telling the story of Cosmic Cowboys",
