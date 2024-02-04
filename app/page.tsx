@@ -12,11 +12,11 @@ const frameMetadata = getFrameMetadata({
 });
 //update metadata with frame
 export const metadata: Metadata = {
-  title: "Cosmic Cowboys",
-  description: "A frame telling the story of Cosmic Cowboys",
+  title: "twin cats",
+  description: "A frame telling the story twin cats",
   openGraph: {
-    title: "Cosmic Cowboys",
-    description: "A frame telling the story of Cosmic Cowboys",
+    title: "twin cats",
+    description: "A frame telling the story twin cats",
     images: [
       `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmQMLkjV47tnpHFyHpMQwbi3F9oDwRg7deMXbNS9QeU6xb/0.jpg`,
     ],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Cosmic Cowboys</h1>
+      <h1>Twin cats</h1>
     </>
   );
 }
